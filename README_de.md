@@ -1,51 +1,34 @@
-# Pandas Übungsaufgaben
+# SQLite Praxis-Challenges
 
 ## Sprachen
 
-🇨🇳 [简体中文](README_zh.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇯🇵 [日本語](README_ja.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
 
-[![Pandas Übungsaufgaben](https://cover-creator.labex.io/pandas-practice-challenges.png?lang=de)](https://labex.io/de/courses/pandas-practice-challenges)
+<div align="center">
+<img width="128px" src="https://file.labex.io/upload/u/1991/BwKD70WXUa7R.png">
+</div>
 
-[![Start-Learning](https://img.shields.io/badge/Start-Learning-whitesmoke?style=for-the-badge)](https://labex.io/de/courses/pandas-practice-challenges)
+Lernen Sie SQLite, eine leichtgewichtige, eigenständige und serverlose SQL-Datenbank-Engine. Dieser Lernpfad bietet umfassende SQLite-Kurse, die für Anfänger und Entwickler eingebetteter Anwendungen konzipiert sind. Er bietet einen strukturierten Fahrplan, um SQL-Abfragen, Datenmodellierung und lokales Datenbankmanagement zu meistern. Durch eine Reihe von praxisorientierten SQLite-Kursen ohne Videos und praktischen Übungen in einem interaktiven SQL-Spielplatz erhalten Lernende reale Erfahrungen beim Erstellen und Abfragen eingebetteter Datenbanken.
 
-Dieser Kurs enthält viele Aufgaben für Pandas. Jede Aufgabe ist ein kleines Pandas-Projekt mit detaillierten Anweisungen und Lösungen. Sie können Ihre Pandas-Fähigkeiten verbessern, indem Sie diese Aufgaben lösen, Ihre Problemlösungsfähigkeiten stärken und lernen, wie Sie sauberen und effizienten Code schreiben.
+Durchsuchen Sie bis zu 9 fokussierte SQLite-Challenges von LabEx. Jede Challenge öffnet sich in einer interaktiven Umgebung für gezieltes Üben.
 
-![Pandas](https://img.shields.io/badge/Pandas-whitesmoke?style=for-the-badge&logo=pandas)
+|   Index | Name                                                                                                                        | Skills                          | Schwierigkeit   | Übung                                                                                            |
+|---------|-----------------------------------------------------------------------------------------------------------------------------|---------------------------------|-----------------|--------------------------------------------------------------------------------------------------|
+|       1 | [SQLite unter Linux installieren und überprüfen](https://labex.io/de/labs/sqlite-install-and-verify-sqlite-on-linux-552579) | SQLite Shell                    | Fortgeschritten | [Challenge Starten](https://labex.io/de/labs/sqlite-install-and-verify-sqlite-on-linux-552579)   |
+|       2 | [Benutzerdaten in SQLite einfügen](https://labex.io/de/labs/insert-user-data-into-sqlite-552580)                            | Dateneinfügung                  | Fortgeschritten | [Challenge Starten](https://labex.io/de/labs/insert-user-data-into-sqlite-552580)                |
+|       3 | [SQLite-Datenbank für Kontakte erstellen](https://labex.io/de/labs/sqlite-build-sqlite-database-for-contacts-552582)        | Tabellenerstellung              | Fortgeschritten | [Challenge Starten](https://labex.io/de/labs/sqlite-build-sqlite-database-for-contacts-552582)   |
+|       4 | [SQLite-Daten für die IT-Abteilung filtern](https://labex.io/de/labs/sqlite-filter-sqlite-data-for-it-department-552585)    | SELECT-Abfragen                 | Fortgeschritten | [Challenge Starten](https://labex.io/de/labs/sqlite-filter-sqlite-data-for-it-department-552585) |
+|       5 | [Gezielte Datenabfrage in SQLite](https://labex.io/de/labs/sqlite-query-specific-data-in-sqlite-552586)                     | SELECT-Abfragen                 | Fortgeschritten | [Challenge Starten](https://labex.io/de/labs/sqlite-query-specific-data-in-sqlite-552586)        |
+|       6 | [Fehlerhafte parametrisierte Kundensuche korrigieren](https://labex.io/de/labs/fix-parameterized-customer-lookup-705343)    | Parameterbindung                | Anfänger        | [Challenge Starten](https://labex.io/de/labs/fix-parameterized-customer-lookup-705343)           |
+|       7 | [Behebung von SQLite-Schreibkonflikten](https://labex.io/de/labs/resolve-sqlite-writer-contention-705344)                   | Nebenläufigkeitsgrenzen         | Anfänger        | [Challenge Starten](https://labex.io/de/labs/resolve-sqlite-writer-contention-705344)            |
+|       8 | [Wiederverwendung vorbereiteter Event-Inserts](https://labex.io/de/labs/reuse-prepared-event-inserts-705345)                | Parametrisierte SQL-Anweisungen | Anfänger        | [Challenge Starten](https://labex.io/de/labs/reuse-prepared-event-inserts-705345)                |
+|       9 | [Upsert-Bestandssynchronisierung](https://labex.io/de/labs/upsert-inventory-sync-705346)                                    | Upserts                         | Anfänger        | [Challenge Starten](https://labex.io/de/labs/upsert-inventory-sync-705346)                       |
 
-
-## Übungen
-
-|   Index | Name                                                  | Schwierigkeit   | Übung                                                                                                                                                                    |
-|---------|-------------------------------------------------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|      01 | 🎯 🆓 DataFrame mit Verkaufsdaten                     | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/python-dataframe-with-sales-data-22107?course=pandas-practice-challenges'>Challenge Starten</a>                        |
-|      02 | 🎯 🆓 Filtering und Indexierung mit CSV               | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/python-filtering-and-indexing-with-csv-67543?course=pandas-practice-challenges'>Challenge Starten</a>                  |
-|      03 | 🎯 🆓 Vergleich von Verkaufsdaten                     | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/pandas-sales-data-comparison-92717?course=pandas-practice-challenges'>Challenge Starten</a>                            |
-|      04 | 🎯 🆓 Behandlung von NaN und Duplikaten               | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/python-handling-nan-and-duplicates-189438?course=pandas-practice-challenges'>Challenge Starten</a>                     |
-|      05 | 🎯 🆓 Arbeiten mit Series                             | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/python-working-with-series-67550?course=pandas-practice-challenges'>Challenge Starten</a>                              |
-|      06 | 🎯 🆓 Verkäufe und Rabatte analysieren                | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/python-analyzing-sales-and-discounts-23740?course=pandas-practice-challenges'>Challenge Starten</a>                    |
-|      07 | 🎯 🆓 DataFrame-Mathematische Operationen             | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/python-dataframe-math-operations-172040?course=pandas-practice-challenges'>Challenge Starten</a>                       |
-|      08 | 🎯 🆓 Pandas-Stringmanipulation für E-Commerce-Daten  | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/pandas-pandas-string-manipulation-for-e-commerce-data-29301?course=pandas-practice-challenges'>Challenge Starten</a>   |
-|      09 | 🎯 🆓 Das Where-Funktion erkunden                     | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/python-exploring-the-where-function-53379?course=pandas-practice-challenges'>Challenge Starten</a>                     |
-|      10 | 🎯 🆓 Die leistungsstarke Query-Methode               | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/pandas-the-powerful-query-method-29827?course=pandas-practice-challenges'>Challenge Starten</a>                        |
-|      11 | 🎯 🆓 Datenanalyse mit Pandas booleschen Reduktionen  | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/python-pandas-boolean-reductions-data-analysis-53381?course=pandas-practice-challenges'>Challenge Starten</a>          |
-|      12 | 🎯 🆓 Pandas DataFrame-Zugriffsmethoden               | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/pandas-pandas-dataframe-accessors-47122?course=pandas-practice-challenges'>Challenge Starten</a>                       |
-|      13 | 🎯 🆓 Ein tiefer Einblick in die Transform-Funktion   | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/pandas-a-deep-dive-into-transform-23742?course=pandas-practice-challenges'>Challenge Starten</a>                       |
-|      14 | 🎯  Blumenarten mit k-nearest neighbors vorhersagen   | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/sklearn-predicting-flower-types-with-nearest-neighbors-256147?course=pandas-practice-challenges'>Challenge Starten</a> |
-|      15 | 🎯 🆓 Pandas IO - Datenimport und -export             | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/python-pandas-io-data-ingestion-and-export-47120?course=pandas-practice-challenges'>Challenge Starten</a>              |
-|      16 | 🎯 🆓 Techniken zur Kombination von Pandas DataFrames | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/python-pandas-dataframe-combination-techniques-16435?course=pandas-practice-challenges'>Challenge Starten</a>          |
-|      17 | 🎯  Entscheidungsbäume                                | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/python-decision-trees-92597?course=pandas-practice-challenges'>Challenge Starten</a>                                   |
-|      18 | 🎯  Lineare Regression                                | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/python-linear-regression-185171?course=pandas-practice-challenges'>Challenge Starten</a>                               |
-|      19 | 🎯  Clustering und Einsichten                         | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/python-clustering-and-insights-198286?course=pandas-practice-challenges'>Challenge Starten</a>                         |
-|      20 | 🎯  Das Verständnis von Validierungskurven            | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/python-understanding-validation-curves-106940?course=pandas-practice-challenges'>Challenge Starten</a>                 |
-|      21 | 🎯  Das Verständnis von Metriken und Bewertungen      | Anfänger        | <a target='_blank' href='https://labex.io/de/labs/python-understanding-metrics-and-scoring-185172?course=pandas-practice-challenges'>Challenge Starten</a>               |
-
-## Über LabEx
-
-[LabEx](https://labex.io) ist eine interaktive, praktische Lernplattform für Programmierung und Technologie. Sie kombiniert Labore, KI-Unterstützung und virtuelle Maschinen für eine videofreie, praktische Lernerfahrung. Mit einem strikten 'Learning by Doing'-Ansatz, interaktiven Online-Umgebungen im Browser mit automatisierten Schritt-für-Schritt-Überprüfungen, strukturierter Inhaltsorganisation mit dem Skill-Tree-basierten System, und einer wachsenden Lernressource von 30 Skill Trees und über 6.000 Laboren, [LabEx](https://labex.io) bietet umfassende praktische Bildung. Die Plattform umfasst den Lernassistenten Labby, aufgebaut auf den neuesten KI-Modellen, der eine konversationelle Lernerfahrung bietet.
+[Alle Challenges ansehen](https://labex.io/de/learn/sqlite).
 
 ## Mehr
 
-- 🔗 [Pandas Programmierungskurse](https://github.com/labex-labs/awesome-programming-courses)
-- 🔗 [Pandas Programmierprojekte](https://github.com/labex-labs/awesome-programming-projects)
-- 🔗 [Pandas Kostenlose Tutorials](https://github.com/labex-labs/pandas-free-tutorials)
+- 🔗 [Mehr über SQLite auf LabEx erfahren](https://labex.io/de/learn/sqlite)
+- 🔗 [Weitere Programmierprojekte entdecken](https://github.com/labex-labs/awesome-programming-projects)
+- 🔗 [Programmierkurse entdecken](https://github.com/labex-labs/awesome-programming-courses)
 
