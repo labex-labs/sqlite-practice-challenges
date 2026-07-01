@@ -1,51 +1,34 @@
-# Практические задачи по Pandas
+# Практические испытания SQLite
 
 ## Языки
 
-🇨🇳 [简体中文](README_zh.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇯🇵 [日本語](README_ja.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
 
-[![Практические задачи по Pandas](https://cover-creator.labex.io/pandas-practice-challenges.png?lang=ru)](https://labex.io/ru/courses/pandas-practice-challenges)
+<div align="center">
+<img width="128px" src="https://file.labex.io/upload/u/1991/BwKD70WXUa7R.png">
+</div>
 
-[![Start-Learning](https://img.shields.io/badge/Start-Learning-whitesmoke?style=for-the-badge)](https://labex.io/ru/courses/pandas-practice-challenges)
+Изучите SQLite — легковесный, автономный и бессерверный движок баз данных SQL. Этот учебный путь предлагает комплексные курсы по SQLite, разработанные для начинающих и разработчиков встраиваемых приложений. Он предоставляет структурированную дорожную карту для освоения SQL-запросов, моделирования данных и управления локальными базами данных. Благодаря серии практических курсов по SQLite без видео и практических упражнений в интерактивной SQL-песочнице, учащиеся получают реальный опыт в создании и запросе встраиваемых баз данных.
 
-Этот курс содержит множество задач по Pandas. Каждая задача представляет собой небольшой проект на Pandas с подробными инструкциями и решениями. Вы можете практиковать свои навыки работы с Pandas, решая эти задачи, улучшить свои навыки решения проблем и научиться писать чистый и эффективный код.
+Просмотрите до 9 целевых испытаний SQLite на LabEx. Каждое испытание открывается в интерактивной среде для отработки конкретных навыков.
 
-![Pandas](https://img.shields.io/badge/Pandas-whitesmoke?style=for-the-badge&logo=pandas)
+|   Индекс | Название                                                                                                               | Навыки                            | Сложность   | Практика                                                                                        |
+|----------|------------------------------------------------------------------------------------------------------------------------|-----------------------------------|-------------|-------------------------------------------------------------------------------------------------|
+|        1 | [Установка и проверка SQLite в Linux](https://labex.io/ru/labs/sqlite-install-and-verify-sqlite-on-linux-552579)       | SQLite Shell                      | Средний     | [Начать Испытание](https://labex.io/ru/labs/sqlite-install-and-verify-sqlite-on-linux-552579)   |
+|        2 | [Вставка пользовательских данных в SQLite](https://labex.io/ru/labs/insert-user-data-into-sqlite-552580)               | Вставка данных                    | Средний     | [Начать Испытание](https://labex.io/ru/labs/insert-user-data-into-sqlite-552580)                |
+|        3 | [Создание базы данных SQLite для контактов](https://labex.io/ru/labs/sqlite-build-sqlite-database-for-contacts-552582) | Создание таблицы                  | Средний     | [Начать Испытание](https://labex.io/ru/labs/sqlite-build-sqlite-database-for-contacts-552582)   |
+|        4 | [Фильтрация данных SQLite для ИТ-отдела](https://labex.io/ru/labs/sqlite-filter-sqlite-data-for-it-department-552585)  | SELECT-запросы                    | Средний     | [Начать Испытание](https://labex.io/ru/labs/sqlite-filter-sqlite-data-for-it-department-552585) |
+|        5 | [Поиск конкретных данных в SQLite](https://labex.io/ru/labs/sqlite-query-specific-data-in-sqlite-552586)               | SELECT-запросы                    | Средний     | [Начать Испытание](https://labex.io/ru/labs/sqlite-query-specific-data-in-sqlite-552586)        |
+|        6 | [Исправление параметризованного поиска клиентов](https://labex.io/ru/labs/fix-parameterized-customer-lookup-705343)    | Привязка параметров               | Начинающий  | [Начать Испытание](https://labex.io/ru/labs/fix-parameterized-customer-lookup-705343)           |
+|        7 | [Устранение конфликтов записи в SQLite](https://labex.io/ru/labs/resolve-sqlite-writer-contention-705344)              | Ограничения конкурентного доступа | Начинающий  | [Начать Испытание](https://labex.io/ru/labs/resolve-sqlite-writer-contention-705344)            |
+|        8 | [Повторное использование подготовленных вставок событий](https://labex.io/ru/labs/reuse-prepared-event-inserts-705345) | Подготовленные операторы          | Начинающий  | [Начать Испытание](https://labex.io/ru/labs/reuse-prepared-event-inserts-705345)                |
+|        9 | [Синхронизация инвентаря через Upsert](https://labex.io/ru/labs/upsert-inventory-sync-705346)                          | UPSERT-операции                   | Начинающий  | [Начать Испытание](https://labex.io/ru/labs/upsert-inventory-sync-705346)                       |
 
-
-## Упражнения
-
-|   Индекс | Название                                                    | Сложность   | Практика                                                                                                                                                                |
-|----------|-------------------------------------------------------------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       01 | 🎯 🆓 DataFrame с данными о продажах                        | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-dataframe-with-sales-data-22107?course=pandas-practice-challenges'>Начать Испытание</a>                        |
-|       02 | 🎯 🆓 Фильтрация и индексирование с CSV                     | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-filtering-and-indexing-with-csv-67543?course=pandas-practice-challenges'>Начать Испытание</a>                  |
-|       03 | 🎯 🆓 Сравнение данных о продажах                           | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/pandas-sales-data-comparison-92717?course=pandas-practice-challenges'>Начать Испытание</a>                            |
-|       04 | 🎯 🆓 Обработка NaN и дубликатов                            | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-handling-nan-and-duplicates-189438?course=pandas-practice-challenges'>Начать Испытание</a>                     |
-|       05 | 🎯 🆓 Работа с Series                                       | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-working-with-series-67550?course=pandas-practice-challenges'>Начать Испытание</a>                              |
-|       06 | 🎯 🆓 Анализ продаж и скидок                                | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-analyzing-sales-and-discounts-23740?course=pandas-practice-challenges'>Начать Испытание</a>                    |
-|       07 | 🎯 🆓 Операции с математикой DataFrame                      | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-dataframe-math-operations-172040?course=pandas-practice-challenges'>Начать Испытание</a>                       |
-|       08 | 🎯 🆓 Обработка строк в Pandas для данных в электронной ... | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/pandas-pandas-string-manipulation-for-e-commerce-data-29301?course=pandas-practice-challenges'>Начать Испытание</a>   |
-|       09 | 🎯 🆓 Исследование функции where                            | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-exploring-the-where-function-53379?course=pandas-practice-challenges'>Начать Испытание</a>                     |
-|       10 | 🎯 🆓 Мощный метод query                                    | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/pandas-the-powerful-query-method-29827?course=pandas-practice-challenges'>Начать Испытание</a>                        |
-|       11 | 🎯 🆓 Анализ данных с использованием булевых сокращений ... | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-pandas-boolean-reductions-data-analysis-53381?course=pandas-practice-challenges'>Начать Испытание</a>          |
-|       12 | 🎯 🆓 Доступ к DataFrame в Pandas                           | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/pandas-pandas-dataframe-accessors-47122?course=pandas-practice-challenges'>Начать Испытание</a>                       |
-|       13 | 🎯 🆓 Глубокие исследования в transform                     | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/pandas-a-deep-dive-into-transform-23742?course=pandas-practice-challenges'>Начать Испытание</a>                       |
-|       14 | 🎯  Предсказание типов цветов с использованием ближайш...   | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/sklearn-predicting-flower-types-with-nearest-neighbors-256147?course=pandas-practice-challenges'>Начать Испытание</a> |
-|       15 | 🎯 🆓 Ввод и экспорт данных с использованием Pandas IO      | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-pandas-io-data-ingestion-and-export-47120?course=pandas-practice-challenges'>Начать Испытание</a>              |
-|       16 | 🎯 🆓 Техники комбинирования Pandas DataFrame               | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-pandas-dataframe-combination-techniques-16435?course=pandas-practice-challenges'>Начать Испытание</a>          |
-|       17 | 🎯  Деревья решений                                         | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-decision-trees-92597?course=pandas-practice-challenges'>Начать Испытание</a>                                   |
-|       18 | 🎯  Линейная регрессия                                      | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-linear-regression-185171?course=pandas-practice-challenges'>Начать Испытание</a>                               |
-|       19 | 🎯  Кластеризация и инсайты                                 | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-clustering-and-insights-198286?course=pandas-practice-challenges'>Начать Испытание</a>                         |
-|       20 | 🎯  Понимание кривых валидации                              | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-understanding-validation-curves-106940?course=pandas-practice-challenges'>Начать Испытание</a>                 |
-|       21 | 🎯  Понимание метрик и оценки                               | Начинающий  | <a target='_blank' href='https://labex.io/ru/labs/python-understanding-metrics-and-scoring-185172?course=pandas-practice-challenges'>Начать Испытание</a>               |
-
-## О LabEx
-
-[LabEx](https://labex.io) - это интерактивная практическая обучающая платформа, посвященная программированию и технологиям. Она объединяет лаборатории, ИИ-помощь и виртуальные машины для обеспечения практического обучения без видео. Со строгим подходом 'Учись делая', интерактивными онлайн-средами в браузере с автоматизированными пошаговыми проверками, структурированной организацией контента с системой на основе Дерева Навыков, и растущим учебным ресурсом из 30 Деревьев Навыков и более 6,000 Лабораторий, [LabEx](https://labex.io) предлагает всестороннее практическое образование. Платформа включает ассистента обучения Labby, построенного на последних моделях ИИ, обеспечивающего разговорный опыт обучения.
+[Посмотреть все испытания](https://labex.io/ru/learn/sqlite).
 
 ## Больше
 
-- 🔗 [Pandas Курсы программирования](https://github.com/labex-labs/awesome-programming-courses)
-- 🔗 [Pandas Проекты программирования](https://github.com/labex-labs/awesome-programming-projects)
-- 🔗 [Pandas Бесплатные туториалы](https://github.com/labex-labs/pandas-free-tutorials)
+- 🔗 [Узнать больше о SQLite на LabEx](https://labex.io/ru/learn/sqlite)
+- 🔗 [Посмотреть больше проектов программирования](https://github.com/labex-labs/awesome-programming-projects)
+- 🔗 [Посмотреть курсы программирования](https://github.com/labex-labs/awesome-programming-courses)
 
